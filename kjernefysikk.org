@@ -1,6 +1,6 @@
 #+REVEAL_THEME: solarized
 #+OPTIONS: num:nil toc:nil
-#+REVEAL_ROOT: file:///c:/Users/tabaa004/OneDrive for Business/fagmateriell/fysikk1/reveal.js
+# #+REVEAL_ROOT: file://.
 # #+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
 #+TITLE: Kjernefysikk
 
