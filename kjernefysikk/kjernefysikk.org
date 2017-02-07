@@ -1,0 +1,28 @@
+#+REVEAL_THEME: solarized
+#+OPTIONS: num:nil toc:nil
+#+REVEAL_ROOT: file:///c:/Users/tabaa004/OneDrive for Business/fagmateriell/fysikk1/reveal.js
+# #+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+TITLE: Kjernefysikk
+
+
+* Spørsmål?
+
+#+ATTR_REVEAL: :frag (appear)
+ - Hva skiller alfa-, beta- og gammastråling?
+ - 
+
+* Atomkjernen
+
+#+ATTR_HTML: :width 50% :height 50%
+
+[[./figurer/marie-curie_toned.jpg]]
+
+
+
+#+REVEAL: split
+
+#+ATTR_REVEAL: :frag (appear)
+ * Dette er punkt 1
+ * Dette er punkt 2
+
+* Hva med dette?
