@@ -1,28 +1,36 @@
 #+REVEAL_THEME: solarized
 #+OPTIONS: num:nil toc:nil
-# #+REVEAL_ROOT: file://.
-# #+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
 #+TITLE: Kjernefysikk
 
 
 * Spørsmål?
+** Hva er radioaktiv stråling?
+#+ATTR_REVEAL: :frag appear
+Energi som er sendt ut fra en atomkjerne
 
-#+ATTR_REVEAL: :frag (appear)
- - Hva skiller alfa-, beta- og gammastråling?
- - 
+** "Betastråling er det som oppstår når et atom tilføres sin ioniseringsenergi"
+#+ATTR_REVEAL: :frag appear
+Nei, det er når et nøytron omdannes til et proton og elektron
+
+** Hva har høyest masse av et proton og et nøytron?
+#+ATTR_REVEAL: :frag appear
+Et proton
+
+** Hva har høyest masse av et nøytron og et proton?
+#+ATTR_REVEAL: :frag appear
+Et nøytron, så vidt
 
 * Atomkjernen
 
-#+ATTR_HTML: :width 50% :height 50%
-
+#+ATTR_HTML: :width 40% :height 40% :alt kilde
 [[./figurer/marie-curie_toned.jpg]]
 
-
+#+BEGIN_NOTES
+Marie Curie
+#+END_NOTES
 
 #+REVEAL: split
 
 #+ATTR_REVEAL: :frag (appear)
  * Dette er punkt 1
  * Dette er punkt 2
-
-* Hva med dette?
