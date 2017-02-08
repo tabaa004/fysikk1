@@ -1,9 +1,11 @@
-#+REVEAL_THEME: solarized
+#+REVEAL_THEME: night
 #+OPTIONS: num:nil toc:nil
 #+TITLE: Kjernefysikk
 
 
-* Spørsmål?
+* Spørsmål
+#+ATTR_HTML: :width 40% :height 40% :alt kilde
+[[./figurer/marie-curie_toned.jpg]]
 ** Hva er radioaktiv stråling?
 #+ATTR_REVEAL: :frag appear
 Energi som er sendt ut fra en atomkjerne
@@ -21,16 +23,86 @@ Et proton
 Et nøytron, så vidt
 
 * Atomkjernen
-
-#+ATTR_HTML: :width 40% :height 40% :alt kilde
-[[./figurer/marie-curie_toned.jpg]]
-
-#+BEGIN_NOTES
-Marie Curie
-#+END_NOTES
+En atomkjerne består av protoner og nøytroner.
+#+ATTR_REVEAL: :frag (appear)
+- Antallet protoner kalles /protontallet/, $Z$.
+- Antallet nøytroner kalles /nøytrontallet/, $N$.
 
 #+REVEAL: split
 
+Antallet /nukleoner/ i kjernen kaller vi /nukleontallet/, $A$. Vi har
+
+$A = Z + N$.
+
+#+REVEAL: split
+
+En atomkjerne, $X$, med $Z$ protoner og $A$ nukleoner skriver vi som
+
+$^{A}_{Z}X$.
+
 #+ATTR_REVEAL: :frag (appear)
- * Dette er punkt 1
- * Dette er punkt 2
+- Hvor mange elektroner har et nøytralt atom rundt kjernen?
+- $Z$
+
+#+REVEAL: split
+
+Vi utelater ofte $Z$, da vi også kan se dette fra symbolet til grunnstoffet.
+
+#+ATTR_REVEAL: :frag (appear)
+- Hva er $Z$ for karbon?
+- $Z = 6$ for karbon, da dette er det sjette grunnstoffet.
+- For karbon-14, skriver vi da ofte $^{14}C$.
+
+* Nukleonene
+#+ATTR_REVEAL: :frag appear
+Både nøytronet og protonet har en masse på tilnærmet $1 u$.
+
+#+ATTR_REVEAL: :frag appear
+$u$ kalles /atommasseenheten/ og er definert som $1/12$ av massen til $^{12}C$.
+
+#+ATTR_REVEAL: :frag appear
+ $u=1,66\cdot 10^{-27} \text{kg}$.
+
+** [[https://osloskolen.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1405859][Fysikktabellen]]
+
+[[./figurer/kjernefysikk_fysikktabell.png]]
+
+#+REVEAL: split
+- Finn nuklidemassen til $^{15}N$ utfra fysikktabellen og periodesystemet. Hvordan forklarer du eventuelle avvik?
+#+ATTR_REVEAL: :frag appear
+- Periodeystemet tar utgangspunkt i gjennomsnittsmasser for de isotopene vi finner i naturen.
+
+* Krefter  i en atomkjerne
+Hvorfor sprenger ikke protonene atomkjernen?
+
+** Den sterke kjernekraften
+De elektromagngetiske kreftene skyver protonene fra hverandre, den sterke kjernekraften holde dem sammen.
+#+ATTR_HTML: :width 70% :height 70%
+[[./figurer/kjernefysikk_sterkkjernekraft.png]]
+#+BEGIN_NOTES
+https://www.google.no/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi3oprq8v_RAhVB2SwKHUYbCIgQjRwIBw&url=https%3A%2F%2Fprofmattstrassler.com%2Farticles-and-posts%2Fparticle-physics-basics%2Fthe-structure-of-matter%2Fthe-nuclei-of-atoms-at-the-heart-of-matter%2Fwhat-holds-nuclei-together%2F&psig=AFQjCNHJm-8EPrdVb0EdqZzyqfat5ViSSA&ust=1486622580097057
+#+END_NOTES
+
+#+ATTR_REVEAL: :frag appear
+Ja, det finnes også en /svak/ kjernekraft.
+
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+- Blir atomene for store, "vinner" de elektromagnetiske kreftene.
+- De vismut-209 er den tyngste /stabile/ atomkjerne
+- Radioaktivitet omdanner alle tyngre atomkjerner
+
+#+REVEAL: split
+[[./figurer/kjernefysikk_omdanninguran.png]]
+
+#+BEGIN_NOTES
+http://www.broaschehoug.no/content/redirect/?marketplaceId=33614929&languageId=1&logicalTitle=content_image_2009.10.19.12.34.14&crId=45176946
+#+END_NOTES
+
+* Bevaringslover
+** Bevaring av energi
+** Bevaring av ladning og nukleontall
+#+ATTR_REVEAL: :frag (appear)
+- Ladningen er bevart i alle kjernereaksjoner
+- Nukleontallet er bevart i alle kjernereaksjoner
+- Totalenergien er bevart i alle kjernereaksjoner
