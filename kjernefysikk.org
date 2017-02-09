@@ -83,6 +83,7 @@ De elektromagngetiske kreftene skyver protonene fra hverandre, den sterke kjerne
 https://www.google.no/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi3oprq8v_RAhVB2SwKHUYbCIgQjRwIBw&url=https%3A%2F%2Fprofmattstrassler.com%2Farticles-and-posts%2Fparticle-physics-basics%2Fthe-structure-of-matter%2Fthe-nuclei-of-atoms-at-the-heart-of-matter%2Fwhat-holds-nuclei-together%2F&psig=AFQjCNHJm-8EPrdVb0EdqZzyqfat5ViSSA&ust=1486622580097057
 #+END_NOTES
 
+#+REVEAL: split
 #+ATTR_REVEAL: :frag appear
 Ja, det finnes også en /svak/ kjernekraft.
 
@@ -98,6 +99,7 @@ Hvor mange nøytroner er det i vismut-209?
 
 #+REVEAL: split
 Forklar hva figuren under viser.
+
 [[./figurer/kjernefysikk_omdanninguran.png]]
 
 #+BEGIN_NOTES
@@ -111,6 +113,8 @@ Ulike nuklider har ulik masse per nukleon. Hva kommer dette av?
 [[./figurer/kjernefysikk_nukleonmasse.png]]
 
 * Bevaringslover
+
+#+ATTR_HTML: :width 40% :height 40%
 [[./figurer/kjernefysikk_einsteinslippers.jpg]]
 
 #+BEGIN_NOTES
