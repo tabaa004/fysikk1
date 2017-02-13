@@ -98,19 +98,15 @@ Hvor mange nøytroner er det i vismut-209?
 #+END_NOTES
 
 #+REVEAL: split
-Forklar hva figuren under viser.
 
 [[./figurer/kjernefysikk_omdanninguran.png]]
 
+#+ATTR_REVEAL: :frag appear
+- Hva viser figuren?
 #+BEGIN_NOTES
 http://www.broaschehoug.no/content/redirect/?marketplaceId=33614929&languageId=1&logicalTitle=content_image_2009.10.19.12.34.14&crId=45176946
 #+END_NOTES
 
-#+REVEAL: split
-Ulike nuklider har ulik masse per nukleon. Hva kommer dette av?
-
-#+ATTR_HTML: :width 100% :height 100%
-[[./figurer/kjernefysikk_nukleonmasse.png]]
 
 * Bevaringslover
 
@@ -121,8 +117,19 @@ Ulike nuklider har ulik masse per nukleon. Hva kommer dette av?
 http://craphound.com/images/Slippers-520x674.jpg
 #+END_NOTES
 ** Bevaring av energi
-#+ATTR_REVEAL: :frag appear
-$E = mc^2$
+#+ATTR_REVEAL: :frag (appear)
+- $E_0 = mc^2$
+- /Totalenergien/ i en kjernereaksjon er bevart, $E=E_0 + E_k + E_\gamma$
+- $E_k$ er den samlede kinetiske energien
+- $E_\gamma$ er strålingsenergien til eventuelle gammafotoner
+
+#+REVEAL: split
+Hva er massen til to protoner og to nøytroner? Skiller dette seg fra massen til $^{4}\text{He}$?
+#+REVEAL: split
+Ulike nuklider har ulik masse per nukleon. Hva kommer dette av?
+
+#+ATTR_HTML: :width 100% :height 100%
+[[./figurer/kjernefysikk_nukleonmasse.png]]
 
 ** Bevaring av ladning og nukleontall
 #+ATTR_REVEAL: :frag (appear)
