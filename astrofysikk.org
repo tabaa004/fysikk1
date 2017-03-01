@@ -1,0 +1,11 @@
+#+REVEAL_THEME: night
+#+OPTIONS: num:nil toc:nil
+#+TITLE: Astrofysikk
+
+
+* Spørsmål
+#+ATTR_HTML: :width 40% :height 40% :alt kilde
+[[./figurer/marie-curie_toned.jpg]]
+** Hva er radioaktiv stråling?
+#+ATTR_REVEAL: :frag appear
+Energi som er sendt ut fra en atomkjerne
