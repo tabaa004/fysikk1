@@ -1,11 +1,49 @@
 #+REVEAL_THEME: night
 #+OPTIONS: num:nil toc:nil
+
 #+TITLE: Astrofysikk
 
 
-* Spørsmål
-#+ATTR_HTML: :width 40% :height 40% :alt kilde
-[[./figurer/marie-curie_toned.jpg]]
-** Hva er radioaktiv stråling?
+* Stjernefødsel
+#+REVEAL: split
+
+#+ATTR_HTML: :width 50% :height 50% :alt kilde
+[[./figurer/astro-oriontaken.jpg]]
+
+#+REVEAL: split
+
+#+ATTR_HTML: :width 40% :height 50% :alt kilde
+[[./figurer/astro-oriontaken2.jpg]]
+
+#+REVEAL: split
+
+Fra fødsel til "overgangsalder" følger en stjerne fire trinn:
+#+ATTR_REVEAL: :frag (appear)
+- Tåke med tetthet over $10^{-16} \textrm{kg/m^3}$
+- Kuleformet tåke som sender ut infrarød stråling ("globule")
+- Protostjerne som sender ut synlig lys
+- Stabil stjerne med sentraltemperatur over $5000 \textrm{K}$
+
+* HR-diagrammet
+
+#+REVEAL: split
+
+#+ATTR_HTML: :width  40% :height 40%
+[[./figurer/astro-hr.png]]
+
+* Livet på hovedserien
+I hovedserien omdannes hydrogen til helium i stjernens sentralområdet. Dette skjer på følgende to forskjellige måter:
+- proton-proton-kjeden
+- karbonsyklusen (stjerner med masse størren enn rundt 1,3 solmasser)
+
+
 #+ATTR_REVEAL: :frag appear
-Energi som er sendt ut fra en atomkjerne
+PP-kjeden kan skrives slik
+$4^1_1\textrm{H} \rightarrow ^4_2\textrm{He} + 2\textrm{e}^{+} + 2\nu + \gamma$
+
+* Stjernedød
+
+* Avstander i universet
+
+* Kosmologi
+
