@@ -19,10 +19,10 @@
 
 Fra fødsel til "overgangsalder" følger en stjerne fire trinn:
 #+ATTR_REVEAL: :frag (appear)
-- Tåke med tetthet over $10^{-16} \textrm{kg/m^3}$
+- Tåke med tetthet over $10^{-16}\mskip3mu\textrm{kg/m}^3$
 - Kuleformet tåke som sender ut infrarød stråling ("globule")
 - Protostjerne som sender ut synlig lys
-- Stabil stjerne med sentraltemperatur over $5000 \textrm{K}$
+- Stabil stjerne med sentraltemperatur over $5000\mskip3mu\textrm{K}$
 
 * HR-diagrammet
 
@@ -44,6 +44,9 @@ $4^1_1\textrm{H} \rightarrow ^4_2\textrm{He} + 2\textrm{e}^{+} + 2\nu + \gamma$
 * Stjernedød
 
 * Avstander i universet
+
+  #+ATTR_HTML: :width 70% :height 70%
+[[./figurer/astro-parallakse.gif]]
 
 * Kosmologi
 
