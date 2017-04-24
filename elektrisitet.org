@@ -9,7 +9,7 @@
 [[./figurer/el-lyn.gif]]
 
 ** Strøm
-En tordensky med ladning 50 C avgir et lyn som varer i 0,0001 s. Hvor stor er strømmen?
+En tordensky med ladning 50 C avgir et lyn som varer i 0,001 s. Hvor stor er strømmen?
 
 ** Spenning
 Spenningen mellom skyen og bakken er 200 millioner volt. Hvor mye elektrisk energi blir frigjort?
