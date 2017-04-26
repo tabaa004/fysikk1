@@ -1,0 +1,35 @@
+#+TITLE: Kirchhoffs lover
+#+HTML_MATHJAX: align: left indent: 5em tagside: left font: Neo-Euler
+#+OPTIONS: num:nil toc:nil html-postamble:nil
+
+* Innledning og forutsetninger
+I løpet av dette forsøket skal du komme deg fram til Kirchhoffs lover. Felles for begge er at de er en slags /bevaringslover/.
+
+* Kobling av motstander
+
+** Seriokobling
+Når noe kobles i /serie/, går det som går ut av den første enheten, inn i den neste. Et eksempel kan være to biltunneler etter hverandre. Det skal da ikke være noen forgreininger mellom enhetene.
+
+*** Fremgangsmåte og oppgaver
+1. Koble to motstander i serie, velg to resistanser mellom 1,5\nbsp{}\Omega og 2,5\nbsp{}\Omega.
+2. Sett motstandene i en krets med en spenningskilde på 5,0\nbsp{}V.
+3. Hva blir spenningsfallet over hver av motstandene?
+4. Hva blir spenningsfallet over begge motstandene til sammen?
+
+*** Tilleggsoppgave
+Med tre motstander i serie \(R_1\), \(R_2\) og \(R_3\). Hva blir et uttrykk for totalmotstanden \(R\)? Hva med om du har \(n\) motstander?
+
+** Parallellkobling
+Når noe /parallellkobles/, splittes strømmen som skal gjennom enhetene, slik at kun en /greinstrøm/ går gjennom hver enhet. Du skal senere vise at for to motstander blir da
+\(\frac{1}{R} = \left(\frac{1}{R_1} + \frac{1}{R_2}\right)^{-1}.
+
+*** Fremgangsmåte og oppgaver
+1. Koble to motstander i parallell, velg to ulike motstander mellom 10\nbsp{}\Omega og 30\nbsp{}\Omega,
+2. Sett de parallelle motsandene inn i en hovedkrets som driver strømmne gjennom begge motstandene, bruk en spenningskilde på 15\nbsp{}V.
+3. Hva blir spenningsfallet over hver av motstandene?
+4. Hva blir spenningsfallet over motstandene sammen?
+5. Kommenter svarene du fikk i oppgave 3 og 4.
+
+* Kirchoffs lover
+
+** Første lov
