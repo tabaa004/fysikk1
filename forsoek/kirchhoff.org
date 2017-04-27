@@ -5,6 +5,8 @@
 * Innledning og forutsetninger
 I løpet av dette forsøket skal du komme deg fram til Kirchhoffs lover. Felles for begge er at de er en slags /bevaringslover/.
 
+Les [[*Rapport][rapportavsnittet]] under for beskrivelse av det du skal produsere.
+
 * Kobling av motstander
 
 ** Seriokobling
@@ -20,8 +22,8 @@ Når noe kobles i /serie/, går det som går ut av den første enheten, inn i de
 Med tre motstander i serie \(R_1\), \(R_2\) og \(R_3\). Hva blir et uttrykk for totalmotstanden \(R\)? Hva med om du har \(n\) motstander?
 
 ** Parallellkobling
-Når noe /parallellkobles/, splittes strømmen som skal gjennom enhetene, slik at kun en /greinstrøm/ går gjennom hver enhet. Du skal senere vise at for to motstander blir da
-\(\frac{1}{R} = \left(\frac{1}{R_1} + \frac{1}{R_2}\right)^{-1}.
+Når noe /parallellkobles/, splittes strømmen som skal gjennom enhetene, slik at kun en /greinstrøm/ går gjennom hver enhet. Du skal senere vise at for to motstander blir da totalmotstanden
+\(\frac{1}{R} = \left(\frac{1}{R_1} + \frac{1}{R_2}\right)^{-1}\).
 
 *** Fremgangsmåte og oppgaver
 1. Koble to motstander i parallell, velg to ulike motstander mellom 10\nbsp{}\Omega og 30\nbsp{}\Omega,
@@ -33,3 +35,24 @@ Når noe /parallellkobles/, splittes strømmen som skal gjennom enhetene, slik a
 * Kirchoffs lover
 
 ** Første lov
+Her er det en forutsetning at i fysikken er /ladning/ en bevart egenskap. Om vi da ser på en strøm \(I\) som går inn mot en forgreing, og at strøm er antall ladninger som passerer et tverrsnitt per sekund, så vil det ikke oppstå ladninger i forgreiningen. Vi får da følgende:
+
+_Summen av alle strømmene inn til et forgreiningspunkt er lik summen av alle strømmene ut fra forgreiningspunktet._
+
+** Andre lov
+Der den første loven baseres på bevaring av ladning, baserer vi Kirchhoffs andre lov på bevaring av /energi/. Når en spenningskilde har utført et arbeid på en ladning som beveger seg gjennom en krets (som er definsjonen på spenning), går arbeidet til å drive ladningen gjennom komponentene. Vi får da følgende:
+
+_Summen av alle de elektromotoriske spenningene rundt en lukket delkrets er lik summen av alle spenningene over motstandene i kretsen._
+
+*** Utforskningsoppgave
+Bruk Kirchhoffs første lov til å utlede uttrykket for totalmotstanden over to parallellkoblede motstander.
+
+Merk, det vil ikke være noe /spenningsfall/ over en forgreining.
+
+
+* Rapport
+Gå gjennom oppgavene over og besvar disse i en rapport hvor du tar med følgende:
+- Bakgrunnsstoff :: Her gjør du selv en vurdering av hva du mener er relevant. Forklar for eksempel hva som menes med en /bevaringslov/.
+- Utstyr :: Da dette arbeidet er gjort i virtuell lab, er det ikke nødvendig med en formell utstyrsliste. Det du dog bør ha med er en kort introduksjon av programvaren. Sørg også for å ha med skjermbilder av de forskjellige oppsettene du har jobbet med.
+- Resultater :: Her må det komme tydelig fram hvilke tallverdier du leste av i de forskjellige oppgavene
+- Konklusjoner :: Det er meningen at du skal få bekreftent noen fundamentale sammenhenger i elektrisitetslæren via disse oppgavene. Noen av dem er gitt i teksten over, andre ikke. Disse sammenhengene bør komme tydelig fram i din besvarelse.
